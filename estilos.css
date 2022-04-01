@@ -55,7 +55,7 @@ align-items: center;
   .barner {
     height: 500px;
     background-color: red;
-    background-image: url("imgs/bg-jelly-fish-para-home.png");
+    background-image: url("bg-jelly-fish-para_outras_pags.png");
     background-size: cover;
   }
 
@@ -96,3 +96,38 @@ align-items: center;
   color: crimson;
 
 }  
+
+.cdt{
+  height: 500px;
+  background-image: url(bg-jelly-fish-para_outras_pags.png);
+  background-size: cover;  
+}
+.cdt .maid {
+  background-color: midnightblue;
+  justify-content: center;
+  height: 640px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto ;
+  margin-top: 20px; 
+ 
+}
+
+.maid input {
+  border: 2px solid midnightblue;
+  border-radius: 5px;
+   
+}
+
+.bt {
+  font-family: monospace;
+  margin-top: 13px;
+  background-color: black;
+  color: grey;
+  border:  0px;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 8px 8px;
+}
