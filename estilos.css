@@ -55,7 +55,7 @@ align-items: center;
   .barner {
     height: 500px;
     background-color: red;
-    background-image: url("bg-jelly-fish-para_outras_pags.png");
+    background-image: url("imgs/bg-jelly-fish-para-home.png");
     background-size: cover;
   }
 
@@ -87,6 +87,7 @@ align-items: center;
   }
 
   input {
+    background-color: black;
     height: 30px;
     border: 2px solid crimson;
     border-radius: 4px;
@@ -99,11 +100,11 @@ align-items: center;
 
 .cdt{
   height: 500px;
-  background-image: url(bg-jelly-fish-para_outras_pags.png);
+  background-image: url("imgs/bg-jelly-fish-para-home.png");
   background-size: cover;  
 }
 .cdt .maid {
-  background-color: midnightblue;
+  background-color: beige;
   justify-content: center;
   height: 640px;
   width: 400px;
@@ -112,11 +113,13 @@ align-items: center;
   align-items: center;
   margin: auto ;
   margin-top: 20px; 
+  color: crimson;
  
 }
 
 .maid input {
-  border: 2px solid midnightblue;
+  
+  border: 2px solid crimson;
   border-radius: 5px;
    
 }
@@ -124,10 +127,11 @@ align-items: center;
 .bt {
   font-family: monospace;
   margin-top: 13px;
-  background-color: black;
+  background-color: crimson;
   color: grey;
   border:  0px;
   font-weight: 500;
   font-size: 15px;
   padding: 8px 8px;
+  margin-bottom: 50px;
 }
