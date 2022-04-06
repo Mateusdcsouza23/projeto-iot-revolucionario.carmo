@@ -126,12 +126,13 @@ align-items: center;
 
 .bt {
   font-family: monospace;
-  margin-top: 13px;
+  margin-top: 10px;
   background-color: crimson;
-  color: grey;
+  color: white;
   border:  0px;
   font-weight: 500;
   font-size: 15px;
   padding: 8px 8px;
   margin-bottom: 50px;
+  border-radius: 4px;
 }
